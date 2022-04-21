@@ -105,13 +105,13 @@ letter-spacing: 1.5px;
 }
 
 .content-section .social i{
-    color: blue;
+    color: black;
     font-size: 30px;
     padding: 0px 10px;
 }
 
 .content-section .social i:hover{
-    color: black;
+    color: blue;
 }
 @media screen and (max-width: 768px){
     
