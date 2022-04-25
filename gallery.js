@@ -10,7 +10,9 @@ const imageUrls = [
     "https://cdn.discordapp.com/attachments/923714309232660480/963486094157021224/unknown.png",
     "https://cdn.discordapp.com/attachments/923714309232660480/963488623355904000/unknown.png",
     "https://cdn.discordapp.com/attachments/923714309232660480/963482798050656266/2022-04-12_2.png",
-    "https://cdn.discordapp.com/attachments/923714309232660480/963482207815618590/2022-04-12.png"
+    "https://cdn.discordapp.com/attachments/923714309232660480/963482207815618590/2022-04-12.png",
+    "https://cdn.discordapp.com/attachments/968191708120633384/968195722400907344/unknown.png",
+    
 ];
 
 function addImages() {
