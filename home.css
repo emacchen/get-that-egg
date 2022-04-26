@@ -30,4 +30,26 @@
   background-image: url(MapPic.png);
   background-size: cover;
 }
+.content-section .content .button {
+  margin-top: 30px;
+}
 
+.content-section .content .button a{
+background-color: white;
+padding: 12px 40px;
+text-decoration: none;
+color: green;
+font-size: 25px;
+letter-spacing: 1.5px;
+}
+
+.content-section .content .button a:hover {
+  background-color: black;
+  color: #fff;
+}
+.content-section .content .button{
+  text-align: center;
+}
+.content-section .content .button a{
+  padding: 9px 30px;
+}

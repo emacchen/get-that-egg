@@ -359,14 +359,15 @@ footer .tab {
 .firstCard {
   background-image: url('https://cdn.discordapp.com/attachments/923714309232660480/963485828854710302/unknown.png');
   background-position: top;
+}
   .secondCard {
-    background-image: url(https://www.vmcdn.ca/f/files/shared/feeds/cp/2022/01/20220106130140-61d73790289834163db7d038jpeg.jpg);
+    background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968195722400907344/unknown.png");
   }
 
   .thirdCard {
-    background-image: url(https://i0.wp.com/www.additudemag.com/wp-content/uploads/2021/01/GettyImages-1145171942.jpg);
+    background-image: url("https://cdn.discordapp.com/attachments/923714309232660480/963486753942016010/unknown.png");
   }
 
   .fourthCard {
-    background-image: url(https://tricycle.org/wp-content/uploads/2011/09/andrew-olendzki-impermanence.jpg);
+    background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968198218007609385/unknown.png");
   }
