@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #home {
     top: 300px;
     background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
@@ -22,24 +28,10 @@
     top: 650px;
     background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
    }
-  
-  
-  .mapImage {
-    background-image: url(MapPic.png);
-    background-size: cover;
-  }@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,300&display=swap');
-
-* {
-    margin: 0px;
-    padding: 0px;
-    /* box-sizing: border-box; */
-    font-family: "Trebuchet MS", Verdana, Geneva, Tahoma, sans-serif;
-}
 
 .section {
     width: 100%;
     min-height: 600px;
-    background-color: lightgreen;
 }
 
 .container {
@@ -87,7 +79,8 @@
 }
 
 .content-section .content .button a{
-background-color: white;
+xbackground-color: white;
+border: 1px solid black;
 padding: 12px 40px;
 text-decoration: none;
 color: green;
@@ -111,7 +104,7 @@ letter-spacing: 1.5px;
 }
 
 .content-section .social i:hover{
-    color: blue;
+    color: green;
 }
 @media screen and (max-width: 768px){
     
