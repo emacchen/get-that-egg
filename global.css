@@ -70,7 +70,7 @@
 /*SPECIAL COLOURING*/
 
 .multicolortext {
-  background-image: linear-gradient(to right, green, gold, green);
+  background-image: linear-gradient(to right, black, grey, black);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -153,7 +153,7 @@ footer {
 }
 
 .tabs a:hover:not(.active) {
-  background-color: black;/* Colour on hover */
+  background-color: gold;/* Colour on hover */
   color:white;
 }
 
@@ -288,7 +288,7 @@ footer .tab {
 }
 
 #myBtn:hover {
-  background-color: black;
+  background-color: gold;
   color: white;
 }
 
@@ -355,19 +355,22 @@ footer .tab {
 }
 
 .firstCard {
-  background-image: url('https://cdn.discordapp.com/attachments/923714309232660480/963485828854710302/unknown.png');
-  background-position: top;
+  background-image: url('https://cdn.discordapp.com/attachments/968191708120633384/968608975740342372/unknown.png');
+  background-position: center;
 }
 .secondCard {
-  background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968195722400907344/unknown.png");
+  background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968610216411275294/unknown.png");
+  background-position: center;
 }
 
 .thirdCard {
-  background-image: url("https://cdn.discordapp.com/attachments/923714309232660480/963486753942016010/unknown.png");
+  background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968609788088950814/unknown.png");
+  background-position: center;
 }
 
 .fourthCard {
-  background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968198218007609385/unknown.png");
+  background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968609270704787526/unknown.png");
+  background-position: center;
 }
  .content-section .social {
       margin-top: 40px;
@@ -380,5 +383,5 @@ footer .tab {
   }
   
   .content-section .social i:hover{
-      color: black;
+      color: gold;
   }
