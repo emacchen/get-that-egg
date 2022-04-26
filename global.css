@@ -153,13 +153,12 @@ footer {
 }
 
 .tabs a:hover:not(.active) {
-  background-color: gold;
-  /*Colour on hover*/
+  background-color: black;/* Colour on hover */
+  color:white;
 }
 
 .activePage {
-  background-color: #4B8C18;
-  /*Colour of current tab*/
+  background-color: #4B8C18;/*Colour of current tab*/
 }
 
 footer .tabs {
@@ -289,7 +288,8 @@ footer .tab {
 }
 
 #myBtn:hover {
-  background-color: #2B4B10;
+  background-color: black;
+  color: white;
 }
 
 .center {
@@ -369,3 +369,16 @@ footer .tab {
 .fourthCard {
   background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968198218007609385/unknown.png");
 }
+ .content-section .social {
+      margin-top: 40px;
+  }
+  
+  .content-section .social i{
+      color: white;
+      font-size: 30px;
+      padding: 0px 10px;
+  }
+  
+  .content-section .social i:hover{
+      color: black;
+  }
