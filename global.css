@@ -183,7 +183,6 @@ footer .tab {
   flex-flow: row wrap;
   padding-left: 100px;
   padding-right: 100px;
-
 }
 
 .aside {
@@ -215,9 +214,7 @@ footer .tab {
   }
 }
 
-
-
-/*NECESSARY*/
+/*SLIDE IN FROM SIDE ANIMATION*/
 
 .reveal {
   position: relative;
@@ -299,8 +296,10 @@ footer .tab {
   height: 350px;
 }
 
+/*CARDS*/
+
 .objectCards {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .card {
@@ -319,11 +318,10 @@ footer .tab {
   display: block;
   height: 100%;
   background-color: transparent;
-
 }
 
 .cardImage {
-  height: 30%;
+  height: 50%;
   width: 250px;
   padding: 1em 2em;
   position: Absolute;
@@ -335,8 +333,8 @@ footer .tab {
 }
 
 .cardDescription {
-  background-color: #FAFAFC;
-  height: 70%;
+  background-color: #F2F3F4;
+  height: 50%;
   width: 250px;
   position: absolute;
   bottom: 0em;
@@ -360,14 +358,14 @@ footer .tab {
   background-image: url('https://cdn.discordapp.com/attachments/923714309232660480/963485828854710302/unknown.png');
   background-position: top;
 }
-  .secondCard {
-    background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968195722400907344/unknown.png");
-  }
+.secondCard {
+  background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968195722400907344/unknown.png");
+}
 
-  .thirdCard {
-    background-image: url("https://cdn.discordapp.com/attachments/923714309232660480/963486753942016010/unknown.png");
-  }
+.thirdCard {
+  background-image: url("https://cdn.discordapp.com/attachments/923714309232660480/963486753942016010/unknown.png");
+}
 
-  .fourthCard {
-    background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968198218007609385/unknown.png");
-  }
+.fourthCard {
+  background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968198218007609385/unknown.png");
+}
