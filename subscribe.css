@@ -1,4 +1,7 @@
-    #home {
+* {
+    overflow: hidden;
+}   
+   #home {
     top: 300px;
     background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
    }
@@ -24,7 +27,7 @@
    }
 .main {
     display: flex;
-    padding: 99px;
+    padding: 80px;
     justify-content: center;
     right: 150px;
 }

@@ -212,6 +212,7 @@ function scrollFunction() {
     } else {
         mybutton.style.display = "none";
     };
+    updateProgressBar();
 }
 
 function topFunction() {
@@ -225,4 +226,9 @@ function topFunction() {
       });    
 }
 
-
+function updateProgressBar() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myProgress").style.width = scrolled + "%";
+}

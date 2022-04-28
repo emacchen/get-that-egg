@@ -16,6 +16,9 @@
             <br><br>
             <span class="multicolortext">Rules</span>
         </h1>
+        <div class="progress-container">
+            <div class="progress-bar" id="myProgress"></div>
+        </div>
     </div>
     <div class="wrapper">
         <article class="main">
@@ -111,24 +114,11 @@
             <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b></button>
 
             <script>
-
+    
                 var mybutton = document.getElementById("myBtn");
-
-
-                window.onscroll = function () { scrollFunction() };
-
-                function scrollFunction() {
-                    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
-                        mybutton.style.display = "block";
-                    } else {
-                        mybutton.style.display = "none";
-                    }
-                }
-
-                function topFunction() {
-                    document.body.scrollTop = 0;
-                    document.documentElement.scrollTop = 0;
-                }
+    
+                window.onscroll = scrollFunction;
+    
             </script>
             <footer class="footer"></footer>
     </div>

@@ -3,6 +3,9 @@
     padding: 0px;
     font-family: "Trebuchet MS", Verdana, Geneva, Tahoma, sans-serif;
 }
+body {
+    overflow: hidden;
+}
 
 #home {
     top: 300px;
@@ -31,14 +34,17 @@
 
 .section {
     width: 100%;
-    min-height: 600px;
 }
 
+.wrapper {
+    max-height: 500px;
+    margin-top: -70px;
+    margin-bottom: -40px;
+}
 .container {
     width: 80%;
     display: block;
     margin: auto;
-    padding-top: 100px;
 }
 
 .content-area {
@@ -54,6 +60,7 @@
 .image-section img {
     width: 100%;
     height: auto;
+    margin-top: -20px;
 }
 
 .content-area .title {
@@ -62,7 +69,7 @@
 }
 
 .content-area .content h3 {
-    margin-top: 20px;
+    margin-top: 10px;
     color: black;
     font-size: 21px;
 }
@@ -79,7 +86,6 @@
 }
 
 .content-area .content .button a{
-xbackground-color: white;
 border: 1px solid black;
 padding: 12px 40px;
 text-decoration: none;
