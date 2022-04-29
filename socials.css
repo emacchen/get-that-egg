@@ -3,34 +3,6 @@
     padding: 0px;
     font-family: "Trebuchet MS", Verdana, Geneva, Tahoma, sans-serif;
 }
-body {
-    overflow: hidden;
-}
-
-#home {
-    top: 300px;
-    background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
-   }
-   #rules {
-    top: 370px;
-    background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
-   }
-   #tutorials {
-    top: 440px;
-    background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
-   }
-   #gallery {
-    top: 510px;
-    background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
-   }
-   #download {
-    top: 580px;
-    background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
-   }
-   #subscribe {
-    top: 650px;
-    background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
-   }
 
 .section {
     width: 100%;

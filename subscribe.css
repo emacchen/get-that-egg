@@ -1,33 +1,6 @@
-* {
-    overflow: hidden;
-}   
-   #home {
-    top: 300px;
-    background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
-   }
-   #rules {
-    top: 370px;
-    background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
-   }
-   #tutorials {
-    top: 440px;
-    background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
-   }
-   #socials {
-    top: 510px;
-    background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
-   }
-   #gallery {
-    top: 580px;
-    background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
-   }
-   #download {
-    top: 650px;
-    background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
-   }
 .main {
     display: flex;
-    padding: 80px;
+    padding: 63px;
     justify-content: center;
     right: 150px;
 }
@@ -38,11 +11,11 @@ form {
     flex-direction: column-reverse;
     justify-content: center;
     border: 1px solid black;
-    border-radius: 10px;
-    background-color: cyan;
+    background-color: transparent;
     align-items: center;
 }
 .inputField {
+    padding-top: 20px;
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;

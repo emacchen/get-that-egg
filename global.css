@@ -3,6 +3,9 @@
   text-align: center;
   font-family: "Trebuchet MS", Verdana, Geneva, Tahoma, sans-serif;
 }
+.scrollLock {
+  overflow: hidden;
+}
 
 /*HEADER*/
 
@@ -153,7 +156,7 @@ body {
 }
 
 .roundedCorner {
-  border-radius: 18px;
+  border-radius: 15px;
   overflow: hidden;
 }
 
@@ -175,7 +178,7 @@ footer {
 
 .tabs a:hover:not(.active) {
   background-color: gold;/* Colour on hover */
-  color:white;
+  color:black;
 }
 
 .activePage {
@@ -375,24 +378,7 @@ footer .tab {
   height: 20em;
 }
 
-.firstCard {
-  background-image: url('https://cdn.discordapp.com/attachments/968191708120633384/968608975740342372/unknown.png');
-  background-position: center;
-}
-.secondCard {
-  background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968610216411275294/unknown.png");
-  background-position: center;
-}
 
-.thirdCard {
-  background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968609788088950814/unknown.png");
-  background-position: center;
-}
-
-.fourthCard {
-  background-image: url("https://cdn.discordapp.com/attachments/968191708120633384/968609270704787526/unknown.png");
-  background-position: center;
-}
 .content-section .social {
   margin-top: 40px;
 }
@@ -421,3 +407,33 @@ footer .tab {
   background-color: black;
   color: white;
 }
+
+/* NAVBAR */
+#home {
+  top: 300px;
+  background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
+ }
+#rules {
+  top: 370px;
+  background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
+ }
+#tutorials {
+  top: 440px;
+  background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
+ }
+#gallery {
+  top: 510px;
+  background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
+  }
+#socials {
+  top: 580px;
+  background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
+  }
+#subscribe {
+  top: 650px;
+  background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
+  }
+#download {
+  top: 720px;
+  background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
+  }

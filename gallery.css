@@ -1,36 +1,3 @@
-#home {
-  top: 300px;
-  background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
- }
- #rules {
-  top: 370px;
-  background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
- }
- #tutorials {
-  top: 440px;
-  background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
- }
- #socials {
-  top: 510px;
-  background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
- }
- #download {
-  top: 580px;
-  background-image: url(https://i.pinimg.com/originals/ed/a2/48/eda248be5c8a09777803ab6f76bf96a9.jpg);
- }
- #subscribe {
-  top: 650px;
-  background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
- }
-
-
- /*Container images*/
-
-
-.mapImage {
-  background:transparent url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/ArrondissementsQuartiersMontreal.svg/1200px-ArrondissementsQuartiersMontreal.svg.png);
-}
-
 .row {
   width: 1400px;
   display: -ms-flexbox;
@@ -59,7 +26,6 @@
       max-width: 50%;
     }
 }
-  
 
 @media screen and (max-width: 600px) {
     .column {
