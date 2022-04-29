@@ -437,3 +437,26 @@ footer .tab {
   top: 720px;
   background-image: url(https://www.greenlawnfertilizing.com/wp-content/uploads/2020/07/grass-background-stockpack-adobe-stock-scaled.jpg);
   }
+
+/*ALERT BUTTON*/
+  
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
