@@ -82,3 +82,20 @@ letter-spacing: 1.5px;
 .content-section .content .button a{
   padding: 9px 30px;
 }
+
+/*DARK MODE*/
+
+.btn-toggle {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 34px;
+  overflow: hidden;
+}
+
+.btn-toggle input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+

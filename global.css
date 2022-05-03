@@ -460,3 +460,8 @@ footer .tab {
 .closebtn:hover {
   color: black;
 }
+
+.rulesImage {
+  background-image: url(https://cdn.discordapp.com/attachments/968191708120633384/971094371543965706/2022-05-02_12.png);
+  background-size: cover;
+}
