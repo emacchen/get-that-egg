@@ -172,7 +172,7 @@ body {
 
 footer {
   color: white;
-  background-image: url('VideoGameDirtFooter.png');
+  background-image: url(VideoGameDirtFooter.png);
   border-top: 10px solid #4B8C18;
 }
 
@@ -460,6 +460,23 @@ footer .tab {
 .closebtn:hover {
   color: black;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
 
 .rulesImage {
   background-image: url(https://cdn.discordapp.com/attachments/968191708120633384/971094371543965706/2022-05-02_12.png);

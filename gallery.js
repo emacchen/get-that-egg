@@ -19,7 +19,8 @@ const imageUrls = [
     "https://cdn.discordapp.com/attachments/968191708120633384/968602129331802122/unknown.png",
     "https://cdn.discordapp.com/attachments/968191708120633384/968602237418999909/unknown.png",
     "https://cdn.discordapp.com/attachments/968191708120633384/968603878855671818/unknown.png",
-    "https://cdn.discordapp.com/attachments/968191708120633384/968604144510312508/unknown.png"
+    "https://cdn.discordapp.com/attachments/968191708120633384/968604144510312508/unknown.png",
+    "https://cdn.discordapp.com/attachments/968191708120633384/971097923628703784/unknown.png"
 
 
 ];
